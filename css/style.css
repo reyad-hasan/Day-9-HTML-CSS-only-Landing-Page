@@ -61,6 +61,67 @@ nav li a {
     line-height: 26px;
     margin: 15px;
 }
-.btn-primary{
-    
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+
+.banner-image {
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* Responsive start from here */
+/* Mobile devices */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 20px 15px 0px 15px;
+    }
+
+}
+
+/* Medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 20px 15px 0px 15px;
+    }
+
+}
+
+/* Extra large device 992 to 1200 to 1400 */
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+    header {
+        padding: 50px;
+    }
+
+    nav {
+        padding: 0px 100px;
+    }
+
+    nav li {
+        margin: 20px 15px 0px 15px;
+    }
 }
