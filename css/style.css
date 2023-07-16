@@ -204,10 +204,16 @@ main {
         font-size: 2.5rem;
     }
 
+    .facts-container {
+        text-align: center;
+        padding: 0 50px;
+    }
+
     .feature-card-container,
     .card {
-        margin-bottom: 20px;
+        margin: 20px 50px;
     }
+
 }
 
 /* Medium devices */
@@ -235,13 +241,17 @@ main {
         text-align: center;
     }
 
+    .facts-container {
+        text-align: center;
+    }
+
     .feature-card-container {
         flex-direction: column;
     }
 
     .feature-card-container,
     .card {
-        margin-bottom: 20px;
+        margin: 20px 50px;
     }
 }
 
@@ -277,5 +287,10 @@ main {
     .feature-card-container,
     .card {
         margin-left: 20px;
+    }
+
+    .facts-container {
+        text-align: center;
+        padding: 0 50px;
     }
 }
