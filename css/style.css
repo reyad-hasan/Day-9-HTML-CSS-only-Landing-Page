@@ -142,7 +142,7 @@ main {
     gap: 80px
 }
 
-.features-container .common-title{
+.features-container .common-title {
     border-left: 5px solid #FF900E;
     padding-left: 20px;
 }
@@ -162,7 +162,7 @@ main {
     font-weight: 600;
 }
 
-.features-image img{
+.features-image img {
     height: 80%;
     margin-left: 100px;
 }
@@ -177,14 +177,32 @@ main {
     position: relative;
     bottom: 100px;
 }
-.features-badge h3{
+
+.features-badge h3 {
     font-size: 3rem;
     margin-bottom: 10px;
 }
-.features-badge p{
+
+.features-badge p {
     font-size: 1.5rem;
 }
 
+/* footer section start from here */
+.footer-container {
+    width: 1440px;
+    height: 80px;
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 200px auto 100px auto;
+    text-align: center;
+}
+
+.footer-container p {
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 28px;
+}
 
 
 
@@ -291,30 +309,32 @@ main {
         gap: 30px;
     }
 
-    .features-container{
+    .features-container {
         flex-direction: column;
         gap: 0;
         padding-left: 100px;
     }
-    .features-image img{
+
+    .features-image img {
         height: 500px;
         margin-top: 50px;
         margin-left: 0;
         margin-right: 50px;
     }
 
-    .fcard{
+    .fcard {
         height: 170px;
         width: 300px;
     }
-    .features-badge{
+
+    .features-badge {
         position: static;
         bottom: 0;
         margin-top: 20px;
         margin-left: 10px;
     }
-    
-    
+
+
 
 }
 
@@ -363,16 +383,17 @@ main {
         align-items: center;
         gap: 30px;
     }
-    .features-image img{
+
+    .features-image img {
         /* height: 800px; */
         width: 500px;
         margin-left: 0;
         /* margin-right: 130px; */
     }
-    .features-image{
-        
-    }
-    .features-badge{
+
+    .features-image {}
+
+    .features-badge {
         position: static;
         bottom: 0;
         margin-top: 20px;
