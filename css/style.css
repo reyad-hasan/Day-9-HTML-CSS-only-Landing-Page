@@ -55,11 +55,11 @@ nav li a {
     margin-top: 80px;
 }
 
-.banner-description {
+.text-description {
     color: #727272;
     font-size: 1rem;
     line-height: 26px;
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .btn-primary {
@@ -78,6 +78,66 @@ nav li a {
     width: 100%;
 }
 
+/* main section styles start from here */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.teams-container {
+    display: flex;
+    align-items: center;
+    padding: 70px 0;
+
+}
+
+.teams-img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content {
+    padding-left: 60px;
+}
+
+.teams-title {
+    font-size: 2.5rem;
+}
+
+.text-quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+
+.text-of-our {
+    color: #131313;
+    font-weight: 700;
+}
+
+.text-features {
+    color: #FF900E;
+    font-weight: 700;
+}
+
+.teams-btn {
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 15px 25px;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 0;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 /* Responsive start from here */
 /* Mobile devices */
 @media screen and (max-width: 576px) {
@@ -85,12 +145,23 @@ nav li a {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 
     nav li {
         margin: 20px 15px 0px 15px;
+    }
+
+    .teams-img-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teams-content {
+        text-align: center;
+        padding: 0 50px;
+        margin-top: 50px;
     }
 
 }
@@ -101,12 +172,18 @@ nav li a {
         padding: 50px;
     }
 
-    nav {
+    nav,
+    .teams-container {
         flex-direction: column;
     }
 
     nav li {
         margin: 20px 15px 0px 15px;
+    }
+
+    .teams-content {
+        padding-top: 50px;
+        margin: 0 50px;
     }
 
 }
@@ -124,4 +201,15 @@ nav li a {
     nav li {
         margin: 20px 15px 0px 15px;
     }
+
+    .teams-container {
+        flex-direction: column;
+    }
+
+    .teams-content {
+        padding-top: 50px;
+        margin: 0 100px;
+        text-align: center;
+    }
+
 }
