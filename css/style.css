@@ -7,6 +7,20 @@
     padding: 0;
 }
 
+/* common shared styles */
+.common-description {
+    color: #727272;
+    font-size: 1rem;
+    line-height: 26px;
+    margin: 15px 0;
+}
+
+.common-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
 header {
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -19,11 +33,7 @@ nav {
 
 }
 
-.nav-title {
-    color: #131313;
-    font-size: 3rem;
-    font-weight: 700;
-}
+
 
 nav>ul {
     display: flex;
@@ -53,13 +63,6 @@ nav li a {
     font-size: 4rem;
     font-weight: 700;
     margin-top: 80px;
-}
-
-.text-description {
-    color: #727272;
-    font-size: 1rem;
-    line-height: 26px;
-    margin: 15px 0;
 }
 
 .btn-primary {
