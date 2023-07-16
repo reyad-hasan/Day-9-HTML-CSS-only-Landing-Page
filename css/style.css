@@ -135,11 +135,57 @@ main {
 }
 
 /* features section styles start from here */
-.features-container{
+.features-container {
     display: flex;
     justify-content: space-between;
     margin: 50px 0;
+    gap: 80px
 }
+
+.features-container .common-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.fcard {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+.fcard-title {
+    color: #131313;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.features-image img{
+    height: 80%;
+    margin-left: 100px;
+}
+
+.features-badge {
+    width: 342px;
+    border-radius: 5px;
+    background: #FF900E;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    position: relative;
+    bottom: 100px;
+}
+.features-badge h3{
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+.features-badge p{
+    font-size: 1.5rem;
+}
+
+
 
 
 
@@ -236,15 +282,39 @@ main {
         margin: 20px 50px;
     }
 
-    .our-sponsors-container{
+    .our-sponsors-container {
         margin: 50px;
     }
 
     .sponsors-img-container {
         align-items: center;
         gap: 30px;
-
     }
+
+    .features-container{
+        flex-direction: column;
+        gap: 0;
+        padding-left: 100px;
+    }
+    .features-image img{
+        height: 500px;
+        margin-top: 50px;
+        margin-left: 0;
+        margin-right: 50px;
+    }
+
+    .fcard{
+        height: 170px;
+        width: 300px;
+    }
+    .features-badge{
+        position: static;
+        bottom: 0;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    
+    
 
 }
 
@@ -257,7 +327,8 @@ main {
     nav,
     .teams-container,
     .feature-card-container,
-    .sponsors-img-container {
+    .sponsors-img-container,
+    .features-container {
         flex-direction: column;
     }
 
@@ -284,13 +355,28 @@ main {
         margin: 20px 50px;
     }
 
-    .our-sponsors-container{
+    .our-sponsors-container {
         align-items: center;
     }
 
-    .sponsors-img-container{
+    .sponsors-img-container {
         align-items: center;
         gap: 30px;
+    }
+    .features-image img{
+        /* height: 800px; */
+        width: 500px;
+        margin-left: 0;
+        /* margin-right: 130px; */
+    }
+    .features-image{
+        
+    }
+    .features-badge{
+        position: static;
+        bottom: 0;
+        margin-top: 20px;
+        margin-left: 170px;
     }
 }
 
@@ -333,7 +419,7 @@ main {
         padding: 0 50px;
     }
 
-    .sponsors-img-container{
+    .sponsors-img-container {
         margin: 0 100px;
     }
 }
